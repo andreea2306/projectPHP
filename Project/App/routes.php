@@ -1,0 +1,14 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Andreea
+ * Date: 20-Nov-18
+ * Time: 10:26
+ */
+
+$routes = [
+    '/page/about-us' => ['controller' => 'PageController',
+        'action' => 'aboutUsAction'],
+    '/user/{id}' => ['controller' => 'UserController',
+        'action' => 'showAction']
+];
